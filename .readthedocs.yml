@@ -16,8 +16,9 @@ version: 2
 sphinx:
   builder: html
   configuration: docs/conf.py
-  formats:
+formats:
   - pdf
+  - epub
 
 # Set the version of Python and requirements required to build your
 # docs
