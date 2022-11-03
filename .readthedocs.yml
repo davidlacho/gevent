@@ -14,8 +14,10 @@ version: 2
 
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
-  builder: html
+  builder: latex
   configuration: docs/conf.py
+  formats:
+  - pdf
 
 # Set the version of Python and requirements required to build your
 # docs
